@@ -6,3 +6,5 @@ Runs program with arguments, accumulates mean CPU and real timings in benchmark.
 Each set of arguments is handled separately allowing investigation of different settings performance.
 Note that environment variables are unhandled.
 Builtin help (--help argument) describes  separate stat file handling, warmup procedures, repetitive testing, error code handling.
+
+Requires argparse python package.
